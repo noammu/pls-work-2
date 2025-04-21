@@ -1,0 +1,31 @@
+.text {
+  background-color: gray;
+}
+
+.subject {
+  border: 7px dotted blue;
+  border-radius: 50%;
+}
+
+.img {
+  width: 400px;
+}
+
+.displayNone {
+  display: none;
+}
+
+.lala {
+}
+
+.lil {
+}
+
+.lul {
+}
+
+.lol {
+}
+
+.na {
+}
