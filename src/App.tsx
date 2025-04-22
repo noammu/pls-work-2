@@ -6,6 +6,7 @@ import { DomTree } from "./components/dom-tree";
 import { ReturnTextOnly } from "./components/return-text-only";
 import { IHaveChildren } from "./components/i-have-children";
 import { Compogedon } from "./components/compogedon";
+import { TextEditing } from "./components/text-editing";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
           <br /> I am the children now.
         </h5>
       </IHaveChildren>
+      <TextEditing />
       <DomTree />
       <div>
         <a href="https://vite.dev" target="_blank">
