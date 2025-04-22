@@ -4,6 +4,8 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import { DomTree } from "./components/dom-tree";
 import { ReturnTextOnly } from "./components/return-text-only";
+import { IHaveChildren } from "./components/i-have-children";
+import { Compogedon } from "./components/compogedon";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,6 +13,13 @@ function App() {
   return (
     <>
       <ReturnTextOnly />
+      <Compogedon />
+      <IHaveChildren>
+        <h5>
+          Look at me.
+          <br /> I am the children now.
+        </h5>
+      </IHaveChildren>
       <DomTree />
       <div>
         <a href="https://vite.dev" target="_blank">
