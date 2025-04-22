@@ -1,9 +1,12 @@
+import { memo } from "react";
 import styles from "./dom-tree.module.css";
 
-export const DomTree = () => {
+export const DomTree = memo(() => {
+  const asidi = "I am aside";
   return (
     <div className="dom-tree">
-      lalala
+      lalala lksfdjhb lsdkjgf hkjdflhjdkjs hf kfhkfhkfhlkfjflkjgflk fkh lk
+      hsglhkghlkhflkhdlghs jhsdlh dskjgl hdsfk jglhfkgs fse dfkljg
       <h1 className={styles.subject}>DOM Tree</h1>
       {true ? <div>True</div> : <div>False</div>}
       <p>
@@ -17,9 +20,9 @@ export const DomTree = () => {
       </ul>
       <div className={styles.displayNone}>lol you cant see me</div>
       <aside
-        className={`${styles.lala} ${styles.lil} ${styles.lul} ${styles.lol} ${styles.na}`}
+        className={`${styles.lala} ${styles.lil} ${styles.lul} ${styles.lol} ${styles.na} ${styles.one} ${styles.two} ${styles.three} ${styles.oneTwo} ${styles.oneThree} ${styles.oneFour} ${styles.oneFive} ${styles.oneSix} ${styles.oneSeven} `}
       >
-        I am aside
+        {asidi}
         <h2>Elements</h2>
         <button>Click me</button>
         <input type="text" placeholder="Type here" />
@@ -57,4 +60,4 @@ export const DomTree = () => {
       <footer>woohoo i'm a footer</footer>
     </div>
   );
-};
+});
