@@ -7,6 +7,7 @@ import { ReturnTextOnly } from "./components/return-text-only";
 import { IHaveChildren } from "./components/i-have-children";
 import { Compogedon } from "./components/compogedon";
 import { TextEditing } from "./components/text-editing";
+import { ReactBootstrap } from "./components/react-bootstrap";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function App() {
           <br /> I am the children now.
         </h5>
       </IHaveChildren>
+      <ReactBootstrap />
       <TextEditing />
       <DomTree />
       <div>
