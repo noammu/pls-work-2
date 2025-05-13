@@ -25,7 +25,11 @@ export const DomTree = memo(() => {
         {asidi}
         <h2>Elements</h2>
         <button>Click me</button>
-        <input type="text" placeholder="Type here" />
+        <input
+          type="text"
+          placeholder="Type here"
+          className={`${styles.lala} ${styles.lil} ${styles.lul} ${styles.lol} ${styles.na} ${styles.one} ${styles.two} ${styles.three} ${styles.oneTwo} ${styles.oneThree} ${styles.oneFour} ${styles.oneFive} ${styles.oneSix} ${styles.oneSeven} `}
+        />
         <input type="checkbox" /> Check me
         <input type="radio" /> Radio me
         <input type="file" /> Upload me

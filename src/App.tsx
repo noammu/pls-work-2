@@ -8,6 +8,7 @@ import { IHaveChildren } from "./components/i-have-children";
 import { Compogedon } from "./components/compogedon";
 import { TextEditing } from "./components/text-editing";
 import { ReactBootstrap } from "./components/react-bootstrap";
+import { PassiveSelectionStuff } from "./components/passive-selection-stuff";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <ReturnTextOnly />
+      <PassiveSelectionStuff />
       <Compogedon />
       <IHaveChildren>
         <h5>

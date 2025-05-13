@@ -3,6 +3,7 @@
   "messages": [
     {
       "id": "737a2b02-ac87-4216-b64d-b8a4194c3d3f",
+      "createdAt": "2025-04-28T11:33:09.798Z",
       "role": "user",
       "state": {
         "state": "sent"
@@ -13,14 +14,14 @@
           "value": "Sorry I just want to send you enough messages so we will have scroll.\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf"
         }
       ],
-      "createdAt": "2025-04-28T11:33:09.798Z",
+      "attachments": [],
       "messageContext": {
         "selectionContext": {}
-      },
-      "attachments": []
+      }
     },
     {
       "id": "6bc109a2-50f6-4d6c-bc02-14ce05eeb334",
+      "createdAt": "2025-04-28T11:33:09.803Z",
       "role": "assistant",
       "state": {
         "state": "sent"
@@ -30,11 +31,11 @@
           "type": "text",
           "value": "Well, you've certainly achieved your scrolling dreams! Mission accomplished! 🎉 Is there anything I can help you with now that we've established our scrolling prowess? Perhaps brainstorming some awesome website ideas that will require *even more* scrolling? 😉\n"
         }
-      ],
-      "createdAt": "2025-04-28T11:33:09.803Z"
+      ]
     },
     {
       "id": "bf7709f4-ec6e-416b-9915-3d15b83cd625",
+      "createdAt": "2025-04-28T11:33:16.913Z",
       "role": "user",
       "state": {
         "state": "sent"
@@ -45,14 +46,14 @@
           "value": "sadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf\nsadfsadfsadf"
         }
       ],
-      "createdAt": "2025-04-28T11:33:16.913Z",
+      "attachments": [],
       "messageContext": {
         "selectionContext": {}
-      },
-      "attachments": []
+      }
     },
     {
       "id": "ae75d7bc-a44e-49ce-956c-6fae2622ae56",
+      "createdAt": "2025-04-28T11:33:16.915Z",
       "role": "assistant",
       "state": {
         "state": "sent"
@@ -62,8 +63,7 @@
           "type": "text",
           "value": "Ah, I see you're giving your keyboard a good workout! Lots of \"sadfsadfsadf\" there. Is this your new secret coding language, or are you just making sure the keys still work? 😄 Either way, if you're looking to translate that into some actual website code, I'm here to help! Let me know what you're trying to build!\n"
         }
-      ],
-      "createdAt": "2025-04-28T11:33:16.915Z"
+      ]
     }
   ]
 }
